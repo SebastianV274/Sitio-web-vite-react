@@ -4,9 +4,9 @@ import './styles.css';
 function Navbar(){
     return(
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-dark bg-dark">
                 <div className="container">
-                <a className="navbar-brand fw-bold" href="/">
+                <a className="navbar-brand fw-bold text-white" href="/">
                     <span className="logo-morado">Re:</span>Zero
                 </a>
                 <button
@@ -19,13 +19,13 @@ function Navbar(){
                 <div id="menu" className="collapse navbar-collapse">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Inicio</Link>
+                            <Link to="/" className="nav-link text-white">Inicio</Link>
                             </li>
                         <li className="nav-item">
-                            <Link to="/historia" className="nav-link">Historia</Link>
+                            <Link to="/historia" className="nav-link text-white">Historia</Link>
                             </li>
                         <li className="nav-item">
-                            <Link to="/personajes" className="nav-link">Personajes</Link>
+                            <Link to="/personajes" className="nav-link text-white">Personajes</Link>
                             </li>
                     </ul>
                 </div>
